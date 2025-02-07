@@ -19,8 +19,8 @@ git clone https://github.com/TheWildJames/kernel_patches.git  --depth=1
 
 mkdir -p "$CONFIG"
 cd "$CONFIG"
-../git-repo/repo init -u https://github.com/ferstar/kernel_manifest.git \
-    -b realme/sm8650 -m gt5pro_v.xml --repo-rev=v2.16
+../git-repo/repo init -u https://github.com/xx2901318208/kernel_manifest.git \
+    -b oppo/sm8650 -m find_x7_ultra_v.xml --repo-rev=v2.16
 ../git-repo/repo sync -c -j$(nproc --all) --no-tags --fail-fast
 
 cd kernel_platform
