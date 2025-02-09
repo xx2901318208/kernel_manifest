@@ -7,7 +7,7 @@
   <project remote="origin" name="android_kernel_common_oneplus_sm8650" path="kernel_platform/common" revision="oneplus/sm8650_v_15.0.0_oneplus_ace5" clone-depth="1">
     <linkfile dest="kernel_platform/.source_date_epoch_dir" src="."/>
   </project>
-  <project remote="oppo" name="android_kernel_modules_and_devicetree_oppo_sm8650" path="kernel_platform/modules_and_devicetree" revision="oppo/sm8650_v_15.0.0 find x7_ultra" clone-depth="1"/>
+  <project remote="oppo" name="android_kernel_modules_and_devicetree_oppo_sm8650" path="./" revision="oppo/sm8650_v_15.0.0_find_x7_ultra" clone-depth="1"/>
   <project remote="clo-la" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="d153b7ab4a4956198957e258d4f370e875c53059" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1">
     <linkfile dest="kernel_platform/build/prebuilts/kernel-build-tools" src="."/>
   </project>
